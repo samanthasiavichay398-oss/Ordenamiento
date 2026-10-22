@@ -1,0 +1,39 @@
+package models;
+//UNA clase estudiante
+//con 2 atributos
+//con controtuctor lleno
+//con metodos get y set
+
+public class Estudiante {
+    private String name;
+    private double nota;
+
+
+    //Constructor lleno
+    public Estudiante(String name, double nota) {
+        this.name = name;
+        this.nota = nota;
+    }
+    public Estudiante() {
+    }
+    
+    
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
+    @Override
+    public String toString() {
+    return "Estudiante [" + name + "," + nota + "]";
+    }
+}
