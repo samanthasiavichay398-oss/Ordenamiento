@@ -1,10 +1,10 @@
-
 public class App {
     public static void main(String[] args) throws Exception {
 
         int[] original = {5, 6, 4, 1, 2, 3};
         int[] b = original.clone();
         int[] c = original.clone();
+        int[] d = original.clone();
 
         // Bubble Sort
         System.out.println("Bubble");
@@ -19,6 +19,13 @@ public class App {
         printArreglo(c);
         selection.sort(c);
         printArreglo(c);
+
+        // Insertion Sort
+        System.out.println("Insertion");
+        InsertionSort insertion = new InsertionSort();
+        printArreglo(d);
+        insertion.sort(d);
+        printArreglo(d);
     }
 
     public static void printArreglo(int[] arr) {

@@ -1,0 +1,8 @@
+Este código ordena los números de mayor a menor, va comparando los números y los 
+cambia de lugar hasta que queden ordenados y muestra cuando un número cambia de posición.
+
+Insertion Sort
+![alt text](assets/5.png)
+
+Resultado
+![alt text](assets/4.png)
